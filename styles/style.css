@@ -103,10 +103,6 @@
   filter: hue-rotate(60deg) contrast(0.5) brightness(1.4);
 }
 
-.brighten {
-   filter: brightness(1.3);
-}
-
 .tag-overlay {
   position: absolute;
   inset-block-start: 25px;
