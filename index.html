@@ -573,17 +573,25 @@
     </main>
     <script src="./scripts/like.js"></script>
     <script>
-      const modal = document.getElementById('modal');
-      const saveButton = document.querySelector('.save__button');
-      const closeButton = document.querySelector('.popup__close-btn');
+  const modal = document.getElementById('modal');
+  const saveButton = document.querySelector('.save__button');
+  const closeButton = document.querySelector('.popup__close-btn');
 
-      saveButton.addEventListener('click', () => {
-        modal.showModal();
-      });
+  if (saveButton) {
+    saveButton.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      modal?.showModal();
+    });
+  }
 
-      closeButton.addEventListener('click', () => {
-        modal.close();
-      });
-    </script>
+  if (closeButton) {
+    closeButton.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      modal?.close();
+    });
+  }
+</script>
   </body>
 </html>
