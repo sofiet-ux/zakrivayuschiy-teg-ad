@@ -74,27 +74,35 @@
   object-fit: cover;
   object-position: right;
 }
+
 .grayscale {
   filter: grayscale(0.7);
 }
+
 .saturate {
   filter: saturate(5);
 }
+
 .hue {
-  filter: hue-rotate(26deg);  
+  filter: hue-rotate(26deg);
 }
+
 .invert {
-   filter: invert(0.8);  
+   filter: invert(0.8); 
 }
+
 .sepia {
   filter: sepia(90%);
 }
+
 .blur {
   filter: blur(8px);
 }
+
 .mult {
   filter: hue-rotate(60deg) contrast(0.5) brightness(1.4);
 }
+
 .brighten {
    filter: brightness(1.3);
 }
