@@ -267,10 +267,6 @@
   flex: 1;
 }
 
-.popup-footer {
-  padding-block-start: 30px;
-}
-
 .popup__close-btn {
   padding-block-start: 12.5px;
   padding-block-end: 12.5px;
