@@ -75,31 +75,31 @@
   object-position: right;
 }
 
-.grayscale {
+.grayscale img {
   filter: grayscale(0.7);
 }
 
-.saturate {
+.saturate img {
   filter: saturate(5);
 }
 
-.hue {
+.hue img {
   filter: hue-rotate(26deg);
 }
 
-.invert {
+.invert img {
    filter: invert(0.8);
 }
 
-.sepia {
+.sepia img {
   filter: sepia(90%);
 }
 
-.blur {
+.blur img {
   filter: blur(8px);
 }
 
-.mult {
+.mult img {
   filter: hue-rotate(60deg) contrast(0.5) brightness(1.4);
 }
 
